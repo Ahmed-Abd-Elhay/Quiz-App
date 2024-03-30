@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(52, 52, 52);
+}
+
+/* container */
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 60%;
+    }
+}
+/* Start Header */
+.container .head {
+    padding: 50px 0px;
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+/* End Header */
+
+/* Start Question and Time */
+.time {
+    margin: auto;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    background-color: rgb(61 59 59);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: -13px;
+    position: relative;
+    z-index: 1;
+}
+
+.question-one {
+    position: absolute;
+    font-size: 22px;
+    top: 160px;
+    left: 22px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.question {
+    color: rgb(255 255 255);
+    background-color: #3f3f3fee;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 28px 50px;
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+}
+/* End Question and Time */
+
+/* Start choose */
+.container .choose {
+    color: wheat;
+    background-color: #3f3f3fee;
+    border-radius: 15px;
+    padding: 1px 45px 15px;
+}
+
+.container .choose form div {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 10px;
+}
+
+.container .choose form label {
+    padding: 20px 20px 20px 30px;
+    width: 91%;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid #959494;
+    border-radius: 50px;
+    transition: .4s;
+}
+
+.container .choose form label:hover {
+    background-color: #393939fc;
+}
+
+.container .choose .submit {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(52, 52, 52);
+    border-radius: 10px;
+    margin: 15px 0px 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container .choose .submit:focus{
+    outline: none;
+} 
+
+.container .choose .submit:hover {
+    background-color: #00a4ff;
+}
+
+.container .choose form input[type="radio"]:checked + label {
+    color: #00a4ff;
+}
+
+.container .choose .num-question {
+    display: inline;
+    padding: 9px 0px 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.container .choose .num-question .perfect {
+    color: #00a4ff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container .choose .num-question p {
+    display: inline;
+    color: white;
+    font-size: 17px;
+}
+
+/* End choose */
+
+/* Start Progress */
+.container .info p {
+    margin: 40px auto 0px;
+    display: block;
+    width: fit-content;
+    color: white;
+}
+
+.container .info .states {
+    position: relative;
+    width: 45%;
+    height: 20px;
+    background-color: #b1b1b1;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container .info .states .progress {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 0%;
+    height: 20px;
+    background-color: #00a4ff;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+/* End Progress */

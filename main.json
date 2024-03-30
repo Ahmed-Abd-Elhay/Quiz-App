@@ -1,0 +1,83 @@
+[
+    {
+        "Question": "What does HTML stand for?",
+        "answer-1": "Home Tool Markup Language",
+        "answer-2": "Hyperlinks and Text Markup Language",
+        "answer-3": "Hyper Text Markup Language",
+        "answer-4": "Hyper Markup Text Language",
+        "right-answer": "Hyper Text Markup Language"
+    },
+    {
+        "Question": "Who is making the Web standards?",
+        "answer-1": "Mozilla",
+        "answer-2": "Microsoft",
+        "answer-3": "Google",
+        "answer-4": "The World Wide Web Consortium",
+        "right-answer": "The World Wide Web Consortium"
+    },
+    {
+        "Question": "What is the correct HTML element for inserting a line break?",
+        "answer-1": "<br>",
+        "answer-2": "<p>",
+        "answer-3": "<hr>",
+        "answer-4": "<pr>",
+        "right-answer": "<br>"
+    },
+    {
+        "Question": "Choose the correct HTML element for the largest heading:",
+        "answer-1": "<h6>",
+        "answer-2": "<h1>",
+        "answer-3": "<head>",
+        "answer-4": "<heading>",
+        "right-answer": "<h1>"
+    },
+    {
+        "Question": "Choose the correct HTML element to define important text",
+        "answer-1": "<strong>",
+        "answer-2": "<important>",
+        "answer-3": "<b>",
+        "answer-4": "<i>",
+        "right-answer": "<strong>"
+    },
+    {
+        "Question": "What is the correct HTML for creating a hyperlink?",
+        "answer-1": "<a href=\"http://www.google.com\">googel</a>",
+        "answer-2": "<a url=\"http://www.google.com\">googel</a>",
+        "answer-3": "<a> \"href=\"http://www.google.com\"\"</a>",
+        "answer-4": "<a> `http://www.google.com` 'google' </a>",
+        "right-answer": "<a href=\"http://www.google.com\">googel</a>"
+    },
+    {
+        "Question": "Which character is used to indicate an end tag?",
+        "answer-1": "<",
+        "answer-2": ">",
+        "answer-3": "/",
+        "answer-4": "\\",
+        "right-answer": "/"
+    },
+    {
+        "Question": "Which of these elements are all <table> elements?",
+        "answer-1": "<table> <tr> <td>",
+        "answer-2": "<table> <tr> <tr>",
+        "answer-3": "<thead> <body> <td>",
+        "answer-4": "<table> <head> <td>",
+        "right-answer": "<table> <tr> <td>"
+    },
+    {
+        "Question": "How can you make a numbered list?",
+        "answer-1": "<ul>",
+        "answer-2": "<ol>",
+        "answer-3": "<li>",
+        "answer-4": "<dl>",
+        "right-answer": "<ol>"
+    },
+    {
+        "Question": "How can you make a bulleted list?",
+        "answer-1": "<ul>",
+        "answer-2": "<ol>",
+        "answer-3": "<li>",
+        "answer-4": "<dl>",
+        "right-answer": "<ul>"
+    }
+]
+
